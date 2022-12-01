@@ -43,9 +43,8 @@ export default ({
 <style lang="scss">
 .molecule-nav-link-list {
   display: flex;
-  flex-direction: row;
-  column-gap: calc((20/1366)*100vw);
-  justify-content: flex-start;
+  column-gap: calc((50/1366)*100vw);
+  justify-content: right;
   align-items: center;
   list-style: none;
 }

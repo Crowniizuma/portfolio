@@ -25,12 +25,12 @@ export default ({
 </script>
 
 <style lang="scss">
-.sns-link {
-  
-
-  img{
-    width: 40px;
-    height: 40px;
+  .sns-link {
+    display: block;
+    border-radius: 50%;
+    img{
+      width: 40px;
+      height: 40px;
+    }
   }
-}
 </style>

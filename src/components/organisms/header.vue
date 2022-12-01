@@ -23,7 +23,9 @@ export default ({
 <style lang="scss">
 .header {
   display: flex;
-  justify-content: flex-end;
-  padding: 20px 40px;
+  column-gap: calc((50/1366)*100vw);
+  justify-content: right;
+  width: calc(100vw - 200px);
+  padding: 25px 100px;
 }
 </style>
